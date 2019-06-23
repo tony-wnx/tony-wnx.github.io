@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Tony&#39;s Blog</title>
+  <icon>https://www.gravatar.com/avatar/ba4a4c9ed2a98e1ba0d030ca3449d4a5</icon>
+  <subtitle>���˲���</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-06-23T03:51:15.697Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>tony</name>
+    <email>e-mail_address</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>全网最详细的Github搭建个人博客教程</title>
+    <link href="http://yoursite.com/2019/06/23/%E5%85%A8%E7%BD%91%E6%9C%80%E8%AF%A6%E7%BB%86%E7%9A%84Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
+    <id>http://yoursite.com/2019/06/23/全网最详细的Github搭建个人博客教程/</id>
+    <published>2019-06-23T03:45:26.000Z</published>
+    <updated>2019-06-23T03:51:15.697Z</updated>
+    
+    <content type="html"><![CDATA[<p>我的第一篇Github博客文章，哈哈哈哈！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;我的第一篇Github博客文章，哈哈哈哈！&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>

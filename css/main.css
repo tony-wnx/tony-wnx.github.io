@@ -445,11 +445,11 @@ body {
 .header-inner {
   margin: 0 auto;
   padding: 100px 0 70px;
-  width: 700px;
+  width: 810px;
 }
 @media (min-width: 1600px) {
   .container .header-inner {
-    width: 800px;
+    width: 900px;
   }
 }
 .main {
@@ -457,11 +457,11 @@ body {
 }
 .main-inner {
   margin: 0 auto;
-  width: 700px;
+  width: 810px;
 }
 @media (min-width: 1600px) {
   .container .main-inner {
-    width: 800px;
+    width: 900px;
   }
 }
 .footer {
@@ -474,11 +474,11 @@ body {
 .footer-inner {
   box-sizing: border-box;
   margin: 20px auto;
-  width: 700px;
+  width: 810px;
 }
 @media (min-width: 1600px) {
   .container .footer-inner {
-    width: 800px;
+    width: 900px;
   }
 }
 pre,
@@ -486,7 +486,7 @@ pre,
   overflow: auto;
   margin: 20px 0;
   padding: 0;
-  font-size: 14px;
+  font-size: 13px;
   color: #4d4d4c;
   background: #f7f7f7;
   line-height: 1.6;
@@ -501,7 +501,7 @@ code {
   color: #555;
   background: #eee;
   border-radius: 3px;
-  font-size: 14px;
+  font-size: 13px;
 }
 pre {
   padding: 10px;
@@ -653,8 +653,8 @@ pre .javascript .function {
 @media (min-width: 992px) {
   .full-image.full-image.full-image.full-image {
     max-width: none;
-    width: $full-image-width;
-    margin: $full-image-margin-vertical $full-image-margin-horizontal;
+    width: 110%;
+    margin: 25px -5%;
   }
 }
 .blockquote-center,
@@ -1942,7 +1942,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fff;
+  background: #0beb7d;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1977,7 +1977,7 @@ pre .javascript .function {
   cursor: pointer;
   border-bottom: 1px solid transparent;
   font-size: 14px;
-  color: #f5f5f5;
+  color: #555;
 }
 .sidebar-nav li:hover {
   color: #f5f5f5;

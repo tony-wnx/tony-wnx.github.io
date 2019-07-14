@@ -596,40 +596,19 @@
 
       
         
-          
-            <blockquote>
+          <blockquote>
 <p>不管是从eclipse还是从其他别的IDE转过来的码哥码姐们，相信你只要你使用过IDEA就一定会和博主一样对它爱不释手。在使用过程中你可能遇到过遇到过这样尴尬的问题，当你刚要打开idea想要狠狠撸它几百行神秘代码的时候，却发现idea的激活失效了，这时你可能会有想砸电脑的冲动。。。莫慌！为了避免这种尴尬，今天我们来聊一聊关于IDEA近乎永久激活的方法（截止2100年到期），废话不多说，接下来开始我们的教程：</p>
 <ul>
 <li>教程基于 IntelliJ IDEA 2018.2.1 (Ultimate Edition) 版本进行讲解。</li>
 </ul>
 </blockquote>
-<h3 id="1-IDEA-下载："><a href="#1-IDEA-下载：" class="headerlink" title="1.IDEA 下载："></a>1.IDEA 下载：</h3><p>官网下载地址：<a href="https://www.jetbrains.com/idea/download/" target="_blank" rel="noopener">https://www.jetbrains.com/idea/download/</a></p>
-<p>百度网盘下载地址：<a href="https://pan.baidu.com/s/1da9F0jj_i3TdJmm1qYZmHQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1da9F0jj_i3TdJmm1qYZmHQ</a>  </p>
-<p>提取码：1ag6</p>
-<h3 id="2-IDEA安装"><a href="#2-IDEA安装" class="headerlink" title="2.IDEA安装"></a>2.IDEA安装</h3><p>无脑式安装，一路next到底，到最后点击Finish完成安装</p>
-<h3 id="3-激活（重点来了）"><a href="#3-激活（重点来了）" class="headerlink" title="3.激活（重点来了）"></a>3.激活（重点来了）</h3><ul>
-<li>首先下载激活插件：JetbrainsCrack-release-enc.jar</li>
-</ul>
-<p>&nbsp;&nbsp;百度网盘下载地址：<a href="https://pan.baidu.com/s/1v0tn0KHuG6FNShauM2UnYA" target="_blank" rel="noopener">https://pan.baidu.com/s/1v0tn0KHuG6FNShauM2UnYA</a></p>
-<p>&nbsp;&nbsp;提取码：6wys</p>
-<p>&nbsp;&nbsp;下载内容包含两个文件：JetbrainsCrack-release-enc.jar、IDEA激活码.txt</p>
-<ul>
-<li>讲下载下来的jar包拷贝到idea安装目录的bin路径下<br><img src="https://github.com/tony-wnx/DailyImprove/blob/master/docs/images/copy_to_dir.png" alt="image"></li>
-<li>在IDEA的安装目录的bin路径下找到 idea.exe.vmoptions 和 idea64.exe.vmoptions 这两个文件，用记事本打开，在这两个文件的最后各自追加以下内容：</li>
-</ul>
-<p>-javaagent:安装路径\bin\JetbrainsCrack-release-enc.jar，修改完后保存退出。<br>例如我的追加内容为：<br>-javaagent:D:\IntelliJ IDEA 2018\bin\JetbrainsCrack-release-enc.jar<br><img src="https://github.com/tony-wnx/DailyImprove/blob/master/docs/images/modify_files.png" alt="image"><br>idea64.exe.vmoptions文件中的内容：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">-Xms128m</span><br><span class="line">-Xmx750m</span><br><span class="line">-XX:ReservedCodeCacheSize=240m</span><br><span class="line">-XX:+UseConcMarkSweepGC</span><br><span class="line">-XX:SoftRefLRUPolicyMSPerMB=50</span><br><span class="line">-ea</span><br><span class="line">-Dsun.io.useCanonCaches=false</span><br><span class="line">-Djava.net.preferIPv4Stack=true</span><br><span class="line">-Djdk.http.auth.tunneling.disabledSchemes=&quot;&quot;</span><br><span class="line">-XX:+HeapDumpOnOutOfMemoryError</span><br><span class="line">-XX:-OmitStackTraceInFastThrow</span><br><span class="line">-javaagent:D:\IntelliJ IDEA 2018\bin\JetbrainsCrack-release-enc.jar</span><br></pre></td></tr></table></figure>
-
-<p>idea.exe.vmoptions文件中的内容：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">-server</span><br><span class="line">-Xms128m</span><br><span class="line">-Xmx512m</span><br><span class="line">-XX:ReservedCodeCacheSize=240m</span><br><span class="line">-XX:+UseConcMarkSweepGC</span><br><span class="line">-XX:SoftRefLRUPolicyMSPerMB=50</span><br><span class="line">-ea</span><br><span class="line">-Dsun.io.useCanonCaches=false</span><br><span class="line">-Djava.net.preferIPv4Stack=true</span><br><span class="line">-Djdk.http.auth.tunneling.disabledSchemes=&quot;&quot;</span><br><span class="line">-XX:+HeapDumpOnOutOfMemoryError</span><br><span class="line">-XX:-OmitStackTraceInFastThrow</span><br><span class="line">-javaagent:D:\IntelliJ IDEA 2018\bin\JetbrainsCrack-release-enc.jar</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>打开IDEA，选择激活码激活，将最开始下载下来的文件：<strong>IDEA激活码.txt</strong> 中的内容全部拷贝到输入框中 ，点击ok完成激活！<br><img src="https://github.com/tony-wnx/DailyImprove/blob/master/docs/images/input_verifyCode.png" alt="image"></li>
-</ul>
-<h3 id="4-激活完成"><a href="#4-激活完成" class="headerlink" title="4.激活完成"></a>4.激活完成</h3><p>激活后会看到到期时间变成2100年（80年够不够老哥，手动滑稽）<br><img src="https://github.com/tony-wnx/DailyImprove/blob/master/docs/images/active_status.png" alt="image"></p>
-<h3 id="5-其他激活方法"><a href="#5-其他激活方法" class="headerlink" title="5.其他激活方法"></a>5.其他激活方法</h3><p>如果上述方法激活失败的话，可能是由于版本的原因，你可以到按1.中百度网盘的地址去下载和我相同的版本，或者参考其他激活方法：<a href="https://blog.csdn.net/zhw0596/article/details/81394870" target="_blank" rel="noopener">https://blog.csdn.net/zhw0596/article/details/81394870</a></p>
-
-          
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/06/23/IntelliJ IDEA永久激活-亲测有效/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>

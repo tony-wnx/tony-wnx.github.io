@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-06-23T03:51:15.697Z</updated>
+  <updated>2019-07-14T10:04:33.693Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2019/06/23/%E5%85%A8%E7%BD%91%E6%9C%80%E8%AF%A6%E7%BB%86%E7%9A%84Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
     <id>http://yoursite.com/2019/06/23/全网最详细的Github搭建个人博客教程/</id>
     <published>2019-06-23T03:45:26.000Z</published>
-    <updated>2019-06-23T03:51:15.697Z</updated>
+    <updated>2019-07-14T10:04:33.693Z</updated>
     
     <content type="html"><![CDATA[<p>我的第一篇Github博客文章，哈哈哈哈！</p>]]></content>
     
@@ -35,6 +35,10 @@
     
     </summary>
     
+      <category term="技术" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="博客" scheme="http://yoursite.com/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   

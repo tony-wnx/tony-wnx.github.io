@@ -4,5 +4,11 @@
     <title><![CDATA[全网最详细的Github搭建个人博客教程]]></title>
     <url>%2F2019%2F06%2F23%2F%E5%85%A8%E7%BD%91%E6%9C%80%E8%AF%A6%E7%BB%86%E7%9A%84Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%2F</url>
     <content type="text"><![CDATA[我的第一篇Github博客文章，哈哈哈哈！]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+      </tags>
   </entry>
 </search>
